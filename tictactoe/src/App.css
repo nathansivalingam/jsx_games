@@ -1,0 +1,62 @@
+.container {
+  display: grid;
+  height: 600px;
+  /* Creates the grid characteristics */
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  align-content: center;
+  /* Places the text in the middle of each element */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+button {
+  background-color: white;
+  border: 0px;
+}
+
+.item-1 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.item-2 {
+  border-bottom: 1px solid black;
+}
+
+.item-3 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.item-4 {
+  border-right: 1px solid black;
+}
+
+.item-6 {
+  border-left: 1px solid black;
+}
+
+.item-7 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.item-8 {
+  border-top: 1px solid black;
+}
+
+.item-9 {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#win {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: -130px;
+}
