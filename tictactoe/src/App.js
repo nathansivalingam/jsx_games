@@ -9,7 +9,7 @@ function App() {
 
   const playerMove = (item) => {
     // Set the value of the new item
-    if (grid[item] === '-') {
+    if (grid[item] === '-' && !winStatus) {
       const newGrid = [...grid];
       newGrid[item] = turn;
       setGrid(newGrid);
@@ -23,8 +23,8 @@ function App() {
     newColours[itemK] = 1;
     setColours(newColours);
     setWinStatus(true);
-    // Get the current number of wins
-    // Update them
+    
+    // Local storage
     let curWins = localStorage.getItem(turn);
     if (curWins === null) {
       curWins = 1;
@@ -40,7 +40,7 @@ function App() {
       changeColour(0, 1, 2);
     } else if (grid[3] === turn && grid[4] === turn && grid[5] === turn) {
       changeColour(3, 4, 5);
-    } else if  (grid[6] === turn && grid[7] === turn && grid[8] === turn) {
+    } else if (grid[6] === turn && grid[7] === turn && grid[8] === turn) {
       changeColour(6, 7, 8);
     } else if (grid[0] === turn && grid[3] === turn && grid[6] === turn) {
       changeColour(0, 3, 6);
@@ -60,7 +60,7 @@ function App() {
         setTurn('X');
       }
     }
-  }, [grid])
+  }, [grid]);
 
   return (
     <div>
