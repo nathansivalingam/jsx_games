@@ -1,0 +1,34 @@
+.navlink {
+    color: #1a0dab;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.homeicon {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.dynamicbody {
+    border: 2px solid red;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 70vh;
+    /* Positions the text */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70vh;
+}
