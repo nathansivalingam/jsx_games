@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    height: 80vh;
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: repeat(3, 33%);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
