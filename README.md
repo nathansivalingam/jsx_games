@@ -4,3 +4,8 @@ These are a few mini games that I am making in preparation for my comp6080 exam.
 ### What to expect
 - [x] Tic Tac Toe
 - [x] React Spa with State (Useful for NavBar)
+
+### Next Steps
+- [] Week 8 2048 stuff
+- [] Week 9 Stuff
+- [] Practice Exam
