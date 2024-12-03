@@ -1,0 +1,108 @@
+body {
+  margin: 0px;
+}
+
+/* TETRO PAGE */
+
+.tetro-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SLIDO PAGE */
+
+.slido-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BLANKO PAGE */
+
+.blanko-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HOME PAGE */
+
+.home-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ROUTER */
+
+.navbar {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  background-color: #eeeeee;
+  line-height: 40px;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-img {
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navlink:hover {
+  cursor: pointer;
+}
+
+.miniNavlink {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navlink {
+    display: none;
+  }
+
+  .miniNavlink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footer {
+  height: 100%;
+  width: 50px;
+  background-color: #999999;
+  /* Fixed to the bottom of the page, NOT the viewport */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
