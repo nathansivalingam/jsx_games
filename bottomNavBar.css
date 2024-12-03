@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+}
+
+/* TETRO PAGE */
+
+.tetro-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SLIDO PAGE */
+
+.slido-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BLANKO PAGE */
+
+.blanko-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HOME PAGE */
+
+.home-page-style {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ROUTER */
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: #eeeeee;
+  line-height: 80px;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.navlink {
+  display: block;
+  padding-right: 2%;
+}
+
+.navlink:hover {
+  cursor: pointer;
+}
+
+.miniNavlink {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navlink {
+    display: none;
+  }
+
+  .miniNavlink {
+    display: block;
+    padding-right: 2%;
+  }
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #999999;
+  /* Fixed to the bottom of the page, NOT the viewport */
+  position: absolute;
+  top: 0;
+}
